@@ -3,7 +3,7 @@
   "name": "MoneyForward 総資産カレンダー",
   "version": "1.0.0",
   "description": "Chrome 起動時に MoneyForward ME の総資産を読み取り、Google カレンダーに終日予定として記録します。",
-  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxYhL9/0xDsas8QppOjXquhLi3N2IA0cM4IU4Tpr1QIU+pYHZeIffyBUDnJp8TDAtzK+iKWuB9t4reDGB5/qKU9UZQxjK3qB0VutjXOGUePrY2+a0J6gobx5SuupGcYdXWXFIdnmyJPYYB1H2zj5MbBsrCPm0JbyzuEqcNyAW9ENnh0g6Ho60BS8kHp6sTh0PBDXhdhZdII1f7JmmaOiR1MDu227nQpGDLHWeEMa7YXw+bD+JVjFkZeTfxmmcMMTdrMWWb5nt7MGNU9CjzFaI5dQmJMsuzezew6ERYZnGUncB9JQRpPtjOLNgvWtpc6/wHNZBYJGqYydHC9BPf3WEmwIDAQAB",
+  "key": "自身の認証キー",
   "permissions": [
     "identity.email",
     "identity",
@@ -27,7 +27,7 @@
     "128": "icons/icon128.png"
   },
   "oauth2": {
-    "client_id": "365680201950-kaom0amh42uctcdh4vbs9ot4ok3p4a59.apps.googleusercontent.com",
+    "client_id": "自身のクライアントID.apps.googleusercontent.com",
     "scopes": [
       "https://www.googleapis.com/auth/calendar.events"
     ]
